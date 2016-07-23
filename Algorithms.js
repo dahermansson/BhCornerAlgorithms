@@ -5,9 +5,19 @@ var algorithms = [
         Algorithm: "[B D' B', U]"
     },
     {
+        FTarget: "A",
+        STarget: "S",
+        Algorithm: "[U', L D' L']"
+    },
+    {
         FTarget: "C",
         STarget: "M",
         Algorithm: "[B D' B', U']"
+    },
+    {
+        FTarget: "C",
+        STarget: "S",
+        Algorithm: "[B D2 B', U]"
     },
     {
         FTarget: "D",
@@ -15,9 +25,19 @@ var algorithms = [
         Algorithm: "[B D' B', U2]"
     },
     {
+        FTarget: "D",
+        STarget: "S",
+        Algorithm: "[B D2 B', U2]"
+    },
+    {
         FTarget: "E",
         STarget: "M",
         Algorithm: "F' [F', R' B2 R] F"
+    },
+    {
+        FTarget: "E",
+        STarget: "S",
+        Algorithm: "[B' R2 B, L']"
     },
     {
         FTarget: "F",
@@ -25,9 +45,24 @@ var algorithms = [
         Algorithm: "D' F [U2, F D2 F'] F' D"
     },
     {
+        FTarget: "F",
+        STarget: "S",
+        Algorithm: "F D' [L2 D' L2 D L2, U2] D F'"
+    },
+    {
         FTarget: "I",
         STarget: "M",
         Algorithm: "R' [B D' B', U2] R"
+    },
+    {
+        FTarget: "I",
+        STarget: "S",
+        Algorithm: "R' [L' D' L, U2] R"
+    },
+    {
+        FTarget: "I",
+        STarget: "T",
+        Algorithm: "D' R [U' F U, B2] R' D"
     },
     {
         FTarget: "J",
@@ -35,9 +70,29 @@ var algorithms = [
         Algorithm: "[B', U F2 U']"
     },
     {
+        FTarget: "J",
+        STarget: "S",
+        Algorithm: "[R2, F L2 F']"
+    },
+    {
+        FTarget: "J",
+        STarget: "T",
+        Algorithm: "[L F2 L', B]"
+    },
+    {
         FTarget: "K",
         STarget: "M",
         Algorithm: "R' [F' U2 F, D'] R"
+    },
+    {
+        FTarget: "K",
+        STarget: "S",
+        Algorithm: "F [F' R' F, L2] F'"
+    },
+    {
+        FTarget: "K",
+        STarget: "T",
+        Algorithm: "D' [R B' R', F2] D"
     },
     {
         FTarget: "L",
@@ -45,14 +100,144 @@ var algorithms = [
         Algorithm: "[F2, D' B D]"
     },
     {
+        FTarget: "L",
+        STarget: "S",
+        Algorithm: "D2 [D F2 D', B] D2"
+    },
+    {
+        FTarget: "L",
+        STarget: "T",
+        Algorithm: "[F, R' B2 R]"
+    },
+    {
+        FTarget: "M",
+        STarget: "A",
+        Algorithm: "[U, B D' B']"
+    },
+    {
+        FTarget: "M",
+        STarget: "C",
+        Algorithm: "[U', B D' B']"
+    },
+    {
+        FTarget: "M",
+        STarget: "D",
+        Algorithm: "[U2, B D' B']"
+    },
+    {
+        FTarget: "M",
+        STarget: "E",
+        Algorithm: "F' [R' B2 R, F'] F"
+    },
+    {
+        FTarget: "M",
+        STarget: "F",
+        Algorithm: "D' F [F D2 F', U2] F' D"
+    },
+    {
+        FTarget: "M",
+        STarget: "I",
+        Algorithm: "R' [U2, B D' B'] R"
+    },
+    {
+        FTarget: "M",
+        STarget: "J",
+        Algorithm: "[U F2 U', B']"
+    },
+    {
+        FTarget: "M",
+        STarget: "K",
+        Algorithm: "R' [D', F' U2 F] R"
+    },
+    {
+        FTarget: "M",
+        STarget: "L",
+        Algorithm: "[D' B D, F2]"
+    },
+    {
+        FTarget: "M",
+        STarget: "O",
+        Algorithm: "D [F' U2 F, D] D'"
+    },
+    {
+        FTarget: "M",
+        STarget: "P",
+        Algorithm: "U L' [L2 D' L2 D L2, U'] L U'"
+    },
+    {
+        FTarget: "M",
+        STarget: "Q",
+        Algorithm: "[D2, R' U R]"
+    },
+    {
+        FTarget: "M",
+        STarget: "R",
+        Algorithm: "R [D, F' U2 F] R'"
+    },
+    {
+        FTarget: "M",
+        STarget: "S",
+        Algorithm: "[D, F' U2 F]"
+    },
+    {
+        FTarget: "M",
+        STarget: "T",
+        Algorithm: "[F, R' B2 R]"
+    },
+    {
+        FTarget: "M",
+        STarget: "V",
+        Algorithm: "D [L2, B' R2 B] D'"
+    },
+    {
+        FTarget: "M",
+        STarget: "W",
+        Algorithm: "[R' F' R, B2]"
+    },
+    {
+        FTarget: "M",
+        STarget: "X",
+        Algorithm: "R2 [U', B D' B'] R2"
+    },
+    {
+        FTarget: "N",
+        STarget: "S",
+        Algorithm: "F [U', L2 D L2 D' L2] F'"
+    },
+    {
+        FTarget: "N",
+        STarget: "T",
+        Algorithm: "[D, R U2 R']"
+    },
+    {
         FTarget: "O",
         STarget: "M",
         Algorithm: "D [D, F' U2 F] D'"
     },
     {
+        FTarget: "O",
+        STarget: "S",
+        Algorithm: "[D2, F' U2 F]"
+    },
+    {
+        FTarget: "O",
+        STarget: "T",
+        Algorithm: "[L F2 L', B']"
+    },
+    {
         FTarget: "P",
         STarget: "M",
         Algorithm: "U L' [U', L2 D' L2 D L2] L U'"
+    },
+    {
+        FTarget: "P",
+        STarget: "S",
+        Algorithm: "[B' R2 B, L]"
+    },
+    {
+        FTarget: "P",
+        STarget: "T",
+        Algorithm: "[D2, R U2 R']"
     },
     {
         FTarget: "Q",
@@ -63,6 +248,26 @@ var algorithms = [
         FTarget: "R",
         STarget: "M",
         Algorithm: "R [F' U2 F, D] R'"
+    },
+    {
+        FTarget: "Q",
+        STarget: "S",
+        Algorithm: "[D', F' U2 F]"
+    },
+    {
+        FTarget: "Q",
+        STarget: "T",
+        Algorithm: "R [R2 D' R2 D R2, U2] R'"
+    },
+    {
+        FTarget: "R",
+        STarget: "S",
+        Algorithm: "[R, F L2 F']"
+    },
+    {
+        FTarget: "R",
+        STarget: "T",
+        Algorithm: "[D, R U2 R']"
     },
     {
         FTarget: "S",
@@ -245,159 +450,9 @@ var algorithms = [
         Algorithm: "[B2, L' F2 L]"
     },
     {
-        FTarget: "V",
-        STarget: "M",
-        Algorithm: "D [B' R2 B, L2] D'"
-    },
-    {
-        FTarget: "W",
-        STarget: "M",
-        Algorithm: "[B2, R' F' R]"
-    },
-    {
-        FTarget: "X",
-        STarget: "M",
-        Algorithm: "R2 [B D' B', U'] R2"
-    },
-    {
-        FTarget: "M",
-        STarget: "A",
-        Algorithm: "[U, B D' B']"
-    },
-    {
-        FTarget: "M",
-        STarget: "C",
-        Algorithm: "[U', B D' B']"
-    },
-    {
-        FTarget: "M",
-        STarget: "D",
-        Algorithm: "[U2, B D' B']"
-    },
-    {
-        FTarget: "M",
-        STarget: "E",
-        Algorithm: "F' [R' B2 R, F'] F"
-    },
-    {
-        FTarget: "M",
-        STarget: "F",
-        Algorithm: "D' F [F D2 F', U2] F' D"
-    },
-    {
-        FTarget: "M",
-        STarget: "I",
-        Algorithm: "R' [U2, B D' B'] R"
-    },
-    {
-        FTarget: "M",
-        STarget: "J",
-        Algorithm: "[U F2 U', B']"
-    },
-    {
-        FTarget: "M",
-        STarget: "K",
-        Algorithm: "R' [D', F' U2 F] R"
-    },
-    {
-        FTarget: "M",
-        STarget: "L",
-        Algorithm: "[D' B D, F2]"
-    },
-    {
-        FTarget: "M",
-        STarget: "O",
-        Algorithm: "D [F' U2 F, D] D'"
-    },
-    {
-        FTarget: "M",
-        STarget: "P",
-        Algorithm: "U L' [L2 D' L2 D L2, U'] L U'"
-    },
-    {
-        FTarget: "M",
-        STarget: "Q",
-        Algorithm: "[D2, R' U R]"
-    },
-    {
-        FTarget: "M",
-        STarget: "R",
-        Algorithm: "R [D, F' U2 F] R'"
-    },
-    {
-        FTarget: "M",
+        FTarget: "U",
         STarget: "S",
-        Algorithm: "[D, F' U2 F]"
-    },
-    {
-        FTarget: "M",
-        STarget: "T",
-        Algorithm: "[F, R' B2 R]"
-    },
-    {
-        FTarget: "M",
-        STarget: "V",
-        Algorithm: "D [L2, B' R2 B] D'"
-    },
-    {
-        FTarget: "M",
-        STarget: "W",
-        Algorithm: "[R' F' R, B2]"
-    },
-    {
-        FTarget: "M",
-        STarget: "X",
-        Algorithm: "R2 [U', B D' B'] R2"
-    },
-    {
-        FTarget: "I",
-        STarget: "T",
-        Algorithm: "D' R [U' F U, B2] R' D"
-    },
-    {
-        FTarget: "J",
-        STarget: "T",
-        Algorithm: "[L F2 L', B]"
-    },
-    {
-        FTarget: "K",
-        STarget: "T",
-        Algorithm: "D' [R B' R', F2] D"
-    },
-    {
-        FTarget: "L",
-        STarget: "T",
-        Algorithm: "[F, R' B2 R]"
-    },
-    {
-        FTarget: "M",
-        STarget: "T",
-        Algorithm: "[F, R' B2 R]"
-    },
-    {
-        FTarget: "N",
-        STarget: "T",
-        Algorithm: "[D, R U2 R']"
-    },
-    {
-        FTarget: "O",
-        STarget: "T",
-        Algorithm: "[L F2 L', B']"
-    },
-    {
-        FTarget: "P",
-        STarget: "T",
-        Algorithm: "[D2, R U2 R']"
-    },
-    {
-        FTarget: "Q",
-        STarget: "T",
-        Algorithm: "R [R2 D' R2 D R2, U2] R'"
-    },
-    {
-        FTarget: "R",
-        STarget: "T",
-        Algorithm: "[D, R U2 R']"
+        Algorithm: "[B' R2 B, L2]"
     },
     {
         FTarget: "U",
@@ -406,13 +461,38 @@ var algorithms = [
     },
     {
         FTarget: "V",
+        STarget: "M",
+        Algorithm: "D [B' R2 B, L2] D'"
+    },
+    {
+        FTarget: "V",
+        STarget: "S",
+        Algorithm: "U' [L2, B R' B'] U"
+    },
+    {
+        FTarget: "V",
         STarget: "T",
         Algorithm: "U' [U' R U, L2] U"
+    },
+    {
+        FTarget: "W",
+        STarget: "M",
+        Algorithm: "[B2, R' F' R]"
+    },
+    {
+        FTarget: "W",
+        STarget: "S",
+        Algorithm: "D R' [U', L2 D' L2 D L2] R D"
     },
     {
         FTarget: "W",
         STarget: "T",
         Algorithm: "[L' F2 L, B2]"
     },
+    {
+        FTarget: "X",
+        STarget: "M",
+        Algorithm: "R2 [B D' B', U'] R2"
+    } 
 ];
 
