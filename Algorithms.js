@@ -250,6 +250,31 @@ var algorithms = [
     },
     {
         FTarget: "E",
+        STarget: "D",
+        Algorithm: "R2 [B2, U' F' U] R2"
+    },
+    {
+        FTarget: "E",
+        STarget: "I",
+        Algorithm: "R [B2, U' F' U] R'"
+    },
+    {
+        FTarget: "E",
+        STarget: "J",
+        Algorithm: "[U R U', L']"
+    },
+    {
+        FTarget: "E",
+        STarget: "K",
+        Algorithm: "[L', F R F']"
+    },
+    {
+        FTarget: "E",
+        STarget: "L",
+        Algorithm: "[L, U' R' U]"
+    },
+    {
+        FTarget: "E",
         STarget: "M",
         Algorithm: "[U B U', F]"
     },
