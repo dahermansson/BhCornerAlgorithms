@@ -315,8 +315,58 @@ var algorithms = [
     },
     {
         FTarget: "F",
+        STarget: "D",
+        Algorithm: "F [B D2 B', U2] F'"
+    },
+    {
+        FTarget: "F",
+        STarget: "I",
+        Algorithm: "l [U2, L2 D L2 D' L2] l'"
+    },
+    {
+        FTarget: "F",
+        STarget: "J",
+        Algorithm: "F' [U R U', L2] F"
+    },
+    {
+        FTarget: "F",
+        STarget: "K",
+        Algorithm: "l [L2 D L2 D' L2, U2] l'"
+    },
+    {
+        FTarget: "F",
+        STarget: "L",
+        Algorithm: "F [L' D2 L, U2] F'"
+    },
+    {
+        FTarget: "F",
         STarget: "M",
         Algorithm: "D' F [U2, F D2 F'] F' D"
+    },
+    {
+        FTarget: "F",
+        STarget: "N",
+        Algorithm: "F' [L2, F' R' F] F"
+    },
+    {
+        FTarget: "F",
+        STarget: "O",
+        Algorithm: "F [U2, F D2 F'] F'"
+    },
+    {
+        FTarget: "F",
+        STarget: "P",
+        Algorithm: "F' [U2, R' D2 R'] F"
+    },
+    {
+        FTarget: "F",
+        STarget: "Q",
+        Algorithm: "F' [U R' U', L2] F"
+    },
+    {
+        FTarget: "F",
+        STarget: "R",
+        Algorithm: "F' [L2, F' R' F] F"
     },
     {
         FTarget: "F",
@@ -324,9 +374,39 @@ var algorithms = [
         Algorithm: "F D' [L2 D' L2 D L2, U2] D F'"
     },
     {
+        FTarget: "F",
+        STarget: "T",
+        Algorithm: "F [B D' B', U2] F'"
+    },
+    {
+        FTarget: "F",
+        STarget: "U",
+        Algorithm: "F' [B' L2 B, L2] F"
+    },
+    {
+        FTarget: "F",
+        STarget: "V",
+        Algorithm: "F [L2 D' L2 D L2,U2] F'"
+    },
+    {
+        FTarget: "F",
+        STarget: "W",
+        Algorithm: "x [D2, L2 U L2 U' L] x"
+    },
+    {
+        FTarget: "F",
+        STarget: "X",
+        Algorithm: "F' [B' R B, L2] F"
+    },
+    {
         FTarget: "I",
         STarget: "A",
         Algorithm: "L [L D L', U2] L'"
+    },
+    {
+        FTarget: "I",
+        STarget: "F",
+        Algorithm: "l [L2 D L2 D' L2, U2] l'"
     },
     {
         FTarget: "I",
