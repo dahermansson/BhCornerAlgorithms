@@ -1050,8 +1050,58 @@ var algorithms = [
     },
     {
         FTarget: "P",
+        STarget: "D",
+        Algorithm: "[R' D2 R, U2]"
+    },
+    {
+        FTarget: "P",
+        STarget: "E",
+        Algorithm: "F [D2, R U2 R'] F'"
+    },
+    {
+        FTarget: "P",
+        STarget: "F",
+        Algorithm: "F' [R' D2 R', U2] F"
+    },
+    {
+        FTarget: "P",
+        STarget: "I",
+        Algorithm: "R' [R' D2 R, U2] R"
+    },
+    {
+        FTarget: "P",
+        STarget: "J",
+        Algorithm: "[U R U', L]"
+    },
+    {
+        FTarget: "P",
+        STarget: "K",
+        Algorithm: "[B' R B, L]"
+    },
+    {
+        FTarget: "P",
+        STarget: "L",
+        Algorithm: "F [D2, R U2 R']"
+    },
+    {
+        FTarget: "P",
         STarget: "M",
         Algorithm: "U L' [U', L2 D' L2 D L2] L U'"
+    },
+    {
+        FTarget: "P",
+        STarget: "N",
+        Algorithm: "[D, F U' F']"
+    },
+    {
+        FTarget: "P",
+        STarget: "Q",
+        Algorithm: "[U R U', L]"
+    },
+    {
+        FTarget: "P",
+        STarget: "R",
+        Algorithm: "[B' U' B, D']"
     },
     {
         FTarget: "P",
@@ -1062,6 +1112,21 @@ var algorithms = [
         FTarget: "P",
         STarget: "T",
         Algorithm: "[D2, R U2 R']"
+    },
+    {
+        FTarget: "P",
+        STarget: "U",
+        Algorithm: "F2 [R' D2 R, D2] F2"
+    },
+    {
+        FTarget: "P",
+        STarget: "W",
+        Algorithm: "R2 [R' D2 R, D2] R2"
+    },
+    {
+        FTarget: "P",
+        STarget: "X",
+        Algorithm: "R2 [B' R' B, L] R2"
     },
     {
         FTarget: "Q",
@@ -1084,6 +1149,11 @@ var algorithms = [
         Algorithm: "[R' U R, D']"
     },
     {
+        FTarget: "Q",
+        STarget: "P",
+        Algorithm: "[L, U R U']"
+    },
+    {
         FTarget: "R",
         STarget: "A",
         Algorithm: "[U, L D L']"
@@ -1097,6 +1167,11 @@ var algorithms = [
         FTarget: "R",
         STarget: "M",
         Algorithm: "R [F' U2 F, D] R'"
+    },
+    {
+        FTarget: "R",
+        STarget: "P",
+        Algorithm: "[D', B' U' B]"
     },
     {
         FTarget: "Q",
@@ -1402,6 +1477,11 @@ var algorithms = [
         FTarget: "X",
         STarget: "O",
         Algorithm: "R2 [U, R' D R'] R2"
+    },
+    {
+        FTarget: "X",
+        STarget: "P",
+        Algorithm: "R2 [L, B' R' B] R2"
     },
 ];
 
