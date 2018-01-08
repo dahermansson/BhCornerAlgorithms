@@ -1595,8 +1595,48 @@ var algorithms = [
     },
     {
         FTarget: "V",
+        STarget: "D",
+        Algorithm: "[U2, L2 D' L2 D L2]"
+    },
+    {
+        FTarget: "V",
+        STarget: "E",
+        Algorithm: "D' [U' F' U, B2] D"
+    },
+    {
+        FTarget: "V",
+        STarget: "F",
+        Algorithm: "F [U2, L2 D' L2 D L2] F'"
+    },
+    {
+        FTarget: "V",
+        STarget: "I",
+        Algorithm: "R' [U2, L2 D' L2 D L2] R"
+    },
+    {
+        FTarget: "V",
+        STarget: "J",
+        Algorithm: "D [U R' U', L2] D'"
+    },
+    {
+        FTarget: "V",
+        STarget: "K",
+        Algorithm: "D [B' R B, L2] D'"
+    },
+    {
+        FTarget: "V",
+        STarget: "L",
+        Algorithm: "D' [F' L F, B2] D"
+    },
+    {
+        FTarget: "V",
         STarget: "M",
         Algorithm: "D [B' R2 B, L2] D'"
+    },
+    {
+        FTarget: "V",
+        STarget: "N",
+        Algorithm: "F [U, L2 D' L2 D L2] F'"
     },
     {
         FTarget: "V",
@@ -1612,6 +1652,21 @@ var algorithms = [
         FTarget: "V",
         STarget: "T",
         Algorithm: "U' [U' R U, L2] U"
+    },
+    {
+        FTarget: "V",
+        STarget: "U",
+        Algorithm: "D [L2, F' R' F] D'"
+    },
+    {
+        FTarget: "V",
+        STarget: "W",
+        Algorithm: "D [B2, R F R'] D'"
+    },
+    {
+        FTarget: "V",
+        STarget: "X",
+        Algorithm: "[L2 U L2 U' L2, D2]"
     },
     {
         FTarget: "W",
@@ -1644,6 +1699,16 @@ var algorithms = [
         Algorithm: "[L' F2 L, B2]"
     },
     {
+        FTarget: "W",
+        STarget: "U",
+        Algorithm: "D'[D2, L2 U L2 U' L2] D"
+    },
+    {
+        FTarget: "W",
+        STarget: "V",
+        Algorithm: "D [R F R', B2] D'"
+    },
+    {
         FTarget: "X",
         STarget: "A",
         Algorithm: "[F2, L B' L']"
@@ -1672,6 +1737,16 @@ var algorithms = [
         FTarget: "X",
         STarget: "Q",
         Algorithm: "D' [B' R2 B, L2] D"
+    },
+    {
+        FTarget: "X",
+        STarget: "U",
+        Algorithm: "[L2, F' R' F]"
+    },
+    {
+        FTarget: "X",
+        STarget: "V",
+        Algorithm: "[D2, L2 U L2 U' L2]"
     },
 ];
 
