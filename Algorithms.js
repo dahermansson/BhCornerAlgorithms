@@ -183,10 +183,31 @@ var algorithms = [
         FTarget: "D",
         STarget: "A",
         Algorithm: "F2 [L2, F' R' F] F2"
-    },{
+    },
+    {
         FTarget: "D",
         STarget: "C",
         Algorithm: "R2 [B2, R F R'] R2"
+    },
+    {
+        FTarget: "D",
+        STarget: "E",
+        Algorithm: "R2 [U' F' U, B2] R2"
+    },
+    {
+        FTarget: "D",
+        STarget: "F",
+        Algorithm: "F [U2, B D2 B'] F'"
+    },
+    {
+        FTarget: "D",
+        STarget: "I",
+        Algorithm: "R' [U2, L' D2 L] R"
+    },
+    {
+        FTarget: "D",
+        STarget: "J",
+        Algorithm: "F [R2, U' L' U] F'"
     },
     {
         FTarget: "D",
@@ -212,6 +233,11 @@ var algorithms = [
         FTarget: "D",
         STarget: "Q",
         Algorithm: "[U2, F D' F']"
+    },
+    {
+        FTarget: "D",
+        STarget: "R",
+        Algorithm: "[L' D L, U2]"
     },
     {
         FTarget: "D",
