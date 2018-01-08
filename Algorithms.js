@@ -521,6 +521,11 @@ var algorithms = [
     },
     {
         FTarget: "I",
+        STarget: "U",
+        Algorithm: "z [U2, R2 D R2 D' R2]"
+    },
+    {
+        FTarget: "I",
         STarget: "V",
         Algorithm: "R' [L2 D' L2 D L2, U2] R"
     },
@@ -1551,6 +1556,11 @@ var algorithms = [
     },
     {
         FTarget: "U",
+        STarget: "I",
+        Algorithm: "z [R2 D R2 D' R2, U2]"
+    },
+    {
+        FTarget: "U",
         STarget: "J",
         Algorithm: "[U R' U', L2]"
     },
@@ -1668,6 +1678,11 @@ var algorithms = [
         FTarget: "V",
         STarget: "Q",
         Algorithm: "R' [L2 D' L2 D L2, U'] R"
+    },
+    {
+        FTarget: "V",
+        STarget: "R",
+        Algorithm: "U' [F R' F', L2] U"
     },
     {
         FTarget: "V",
